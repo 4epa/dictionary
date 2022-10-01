@@ -58,7 +58,6 @@ export const dictionarySlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const { setWord, deleteWord } = dictionarySlice.actions;
 
 export default dictionarySlice.reducer;
